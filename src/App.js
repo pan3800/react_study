@@ -2,7 +2,13 @@ import './App.css'
 
 function App() {
   const name = '리액트';
-  return <div className='react'>{name}</div>
-}
+  return (
+    <>
+      {/* 주석은 이렇게 작성합니다. */}
+      <div className='react'>
 
-export default App;
+      </div>
+      <input />
+    </>
+  )
+}
